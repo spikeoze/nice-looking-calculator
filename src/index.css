@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+
+.calculator-wrapper {
+  width: 255px;
+  height: auto;
+  padding: 1rem;
+  background-color: #95d0fa;
+  border-radius: 5px;
+}
+
+.screen {
+  position: relative;
+  font-family: "Source Sans Pro", sans-serif;
+  letter-spacing: 1px;
+  color: #228be6;
+  text-shadow: 0.5px 0.5px 0.5px #228be650;
+  width: 255px;
+  height: 70px;
+  border-radius: 5px;
+  background-color: #f1f6fa;
+  overflow: hidden;
+  margin-top: 5px;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-direction: column;
+}
+
+.previous {
+  font-size: 16px;
+  position: absolute;
+  bottom: 30px;
+  right: 14px;
+}
+
+.current {
+  font-size: 25px;
+  position: absolute;
+  top: 5px;
+  right: 10px;
+}
+
+.MRC {
+  display: flex;
+  justify-content: end;
+  align-items: flex-end;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: -35px;
+}
+
+.title {
+  position: relative;
+  top: 13px;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #358fdf;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.MRCshape {
+  position: relative;
+  bottom: 5px;
+  left: 4.5px;
+  width: 14px;
+  height: 14px;
+  box-shadow: 1px 1px 1px rgba(104, 102, 102, 0.288);
+  border-radius: 100%;
+  margin-right: 0.3rem;
+  margin-left: 0.3rem;
+}
+
+.minimize {
+  background-color: #fafa9a;
+}
+
+.resize {
+  background-color: #56aefa;
+}
+
+.close {
+  background-color: #f08888;
+}
+
+.MRCshape:hover {
+  box-shadow: inset 1px 1px 4px rgba(54, 53, 53, 0.548);
+}
